@@ -1,4 +1,12 @@
-
+#include<iostream>
+using namespace std;
+    // int sum ( int a , int b){
+    //     int c = a+b;
+    //     return c;
+    // }
+ void swapPointer ( int* a , int* b){
+        int temp = *a;
+        *a = *b;
         *b = temp;
     }
 int main(){
