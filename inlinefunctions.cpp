@@ -44,3 +44,8 @@ int main(){
     cout<< "If you have " << money << " rupees in your bank account, you will receive " << moneyReceived(money) << " rupees after one year." << endl;
     return 0;
 }
+// defaults arguments are the arguments jinke pass value nahi hoti hai toh default value use hoti hai
+// Path: inlinefunctions.cpp
+
+// constant arguments are the argumnets jinke pass value change nahi hoti hai 
+// int strlen( const char *p){ just like this ....
