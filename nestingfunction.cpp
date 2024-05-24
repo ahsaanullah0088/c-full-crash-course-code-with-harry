@@ -21,6 +21,7 @@ void binary ::read(void)
 
 void binary ::chk_bin(void)
 {
+    chk_bin(); //this is a nesting function
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) != '0' && s.at(i) != '1')
@@ -59,7 +60,7 @@ int main()
 
     binary b;
     b.read();
-    b.chk_bin();
+    // b.chk_bin();
     b.display();
     b.ones();
     b.display();
