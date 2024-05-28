@@ -55,5 +55,4 @@ int main (){
 // 14. volatile constructor
 // 15. constexpr constructor
 // 16. const constructor
-// 17. explicit constructor
-// 18. extern constructor
+
